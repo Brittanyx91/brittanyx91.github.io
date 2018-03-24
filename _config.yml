@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/ (optional)
-url: "http://codingwithcats.us"
+url: "http://www.codingwithcats.us/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
