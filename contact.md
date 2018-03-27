@@ -12,4 +12,3 @@ feature-img: "img/color.png"
   <input type='email' name='email' placeholder='brittany.m.blakley@gmail.com' />
   <textarea name='message' placeholder='Write your message ...'></textarea>
   <input type='submit' value='Send Message' />
-</form>
