@@ -1,6 +1,7 @@
-
+---
 layout: post
 title: My Experience with Coding
+---
 
 My journey to Bloc started in March of 2017. I had been interested in "coding"
 for a while but I really didn't know where to begin. *cue friend who just
