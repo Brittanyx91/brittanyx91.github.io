@@ -19,7 +19,7 @@ Our first step was to use the NoSQL database Firebase where we stored data objec
 ## Solution
 
 Initially when working with Firebase I had several problems learning how to structure the objects. After that was solved my rooms came through to my app.
->![alt text](https://i.imgur.com/kayoyGX.png "Room Structure")
+>![Room Structure](https://i.imgur.com/kayoyGX.png "Room Structure")
 
 We needed to set an active room to store our current messages.
 >''' render() {
@@ -46,11 +46,11 @@ We needed to set an active room to store our current messages.
 
 
 Users needed to be able to sign in.
->![alt text](https://i.imgur.com/gzg4D2X.png "Sign In")
+>![Sign In](https://i.imgur.com/aSgkbGo.png "Sign In")
 
 
 Now users are able to create messages and rooms within the app!
->![alt text](https://i.imgur.com/9Org5NR.png "Messages")
+>![Messages](https://i.imgur.com/EPZBpdY.png "Messages")
 
 ## Results
 After working through each problem given Bloc Chat was proven to be a user friendly application.
