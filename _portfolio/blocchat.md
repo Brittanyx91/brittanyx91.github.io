@@ -43,14 +43,14 @@ We needed to set an active room to store our current messages.
         );
     }
 }
-'''
+
 
 Users needed to be able to sign in.
->![alt text](https://imgur.com/a/ROvCH70 "Sign In")
+>![alt text](https://i.imgur.com/gzg4D2X.png "Sign In")
 
 
 Now users are able to create messages and rooms within the app!
->![alt text](https://imgur.com/a/XsvDfOP "Messages")
+>![alt text](https://i.imgur.com/9Org5NR.png "Messages")
 
 ## Results
 After working through each problem given Bloc Chat was proven to be a user friendly application.
