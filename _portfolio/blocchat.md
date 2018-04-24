@@ -22,7 +22,7 @@ Initially when working with Firebase I had several problems learning how to stru
 >![Room Structure](https://i.imgur.com/kayoyGX.png "Room Structure")
 
 We needed to set an active room to store our current messages.
->''' render() {
+>render() {
           const activeRoom = this.props.activeRoom;
           var messageList = this.state.messages.filter(message => message.roomid === activeRoom);
           messageList = messageList.map(message => {
