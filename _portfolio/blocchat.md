@@ -19,19 +19,41 @@ Our first step was to use the NoSQL database Firebase where we stored data objec
 ## Solution
 
 Initially when working with Firebase I had several problems learning how to structure the objects. After that was solved my rooms came through to my app.
->room structure
+>![alt text](https://i.imgur.com/kayoyGX.png "Room Structure")
 
 We needed to set an active room to store our current messages.
-> code snippet
+>''' render() {
+          const activeRoom = this.props.activeRoom;
+          var messageList = this.state.messages.filter(message => message.roomid === activeRoom);
+          messageList = messageList.map(message => {
+            return <div className="current-message" key={message.key}>{message.username} {message.content} {this.time(message.sentat)} </div>
+
+          })
+
+          return (
+                <div className="chatroom-messages">
+                    <div>{messageList}
+                    </div>
+                    <form onSubmit={(e) => this.handleSubmit(e)}>
+                        <input type="text" name="newmessage" placeholder="New Message" value={this.state.content}
+                        onChange={(e) => this.handleChange(e)} />
+                        <button type="submit" onClick={(e) => this.createMessage(e)}>Send</button>
+                        </form>
+                    </div>
+        );
+    }
+}
+'''
 
 Users needed to be able to sign in.
-> picture
+>![alt text]( https://imgur.com/a/ROvCH70 "Sign In")
+
 
 Now users are able to create messages and rooms within the app!
->picture
+>![alt text]( https://imgur.com/a/XsvDfOP "Messages")
 
 ## Results
 After working through each problem given Bloc Chat was proven to be a user friendly application.
 
 ## Conclusion
-React and Firebase gave me the tools to create a fun project. 
+React and Firebase gave me the tools to create a fun project.
